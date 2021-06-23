@@ -32,6 +32,11 @@ BACK-END
  	Scaffold-DbContext "Data Source = NOME DO TERMINAL DO BD ; Initial Catalog = NOME DO BD; user Id=sa; pwd=SENHA;" Microsoft.EntityFrameworkCore.SqlServer
 	-OutputDir Domains -ContextDir Contexts -Context NOMEDOPROJETOContext -UseDataBaseNames
 
+	MEU BANCO-----------------
+	
+	Scaffold-DbContext "Data Source = MATHEUS-PC\SQLEXPRESS ; Initial Catalog = Roman; user Id=sa; pwd=190420;" Microsoft.EntityFrameworkCore.SqlServer
+	-OutputDir Domains -ContextDir Contexts -Context RomanContext
+
 5.1- ADICIONAR O COMANDO NA PASTA CSPROJ:
 
 	<PropertyGroup>
