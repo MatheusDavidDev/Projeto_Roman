@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROGRAMACAO\\Roman\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj": {}
+    "C:\\Users\\PICHAU\\Desktop\\Roman\\Projeto_Roman\\BackEnd\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj": {}
   },
   "projects": {
-    "D:\\PROGRAMACAO\\Roman\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj": {
+    "C:\\Users\\PICHAU\\Desktop\\Roman\\Projeto_Roman\\BackEnd\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAMACAO\\Roman\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj",
+        "projectUniqueName": "C:\\Users\\PICHAU\\Desktop\\Roman\\Projeto_Roman\\BackEnd\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj",
         "projectName": "Projeto_Roman_API",
-        "projectPath": "D:\\PROGRAMACAO\\Roman\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMACAO\\Roman\\Projeto_Roman_API\\Projeto_Roman_API\\obj\\",
+        "projectPath": "C:\\Users\\PICHAU\\Desktop\\Roman\\Projeto_Roman\\BackEnd\\Projeto_Roman_API\\Projeto_Roman_API\\Projeto_Roman_API.csproj",
+        "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PICHAU\\Desktop\\Roman\\Projeto_Roman\\BackEnd\\Projeto_Roman_API\\Projeto_Roman_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
