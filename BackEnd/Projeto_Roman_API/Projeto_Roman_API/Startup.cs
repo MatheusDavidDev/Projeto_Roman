@@ -33,7 +33,7 @@ namespace Projeto_Roman_API
                 options.AddPolicy("CorsPolicy",
                     builder => {
                         //MUDAR O CORS
-                        builder.WithOrigins("http://localhost:3000","http://localhost:19004")
+                        builder.WithOrigins("http://localhost:3000","http://localhost:19006")
                                                                     .AllowAnyHeader()
                                                                     .AllowAnyMethod();
                     }
