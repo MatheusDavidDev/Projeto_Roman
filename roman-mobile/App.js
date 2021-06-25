@@ -1,21 +1,26 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {Component}  from 'react';
+import { StyleSheet, Text, View, Image, FlatList } from 'react-native';
+import Projetos from './src/screens/listarProjetos';
+import Perfil from './src/screens/perfil';
+import Cadastro from './src/screens/cadastro';
+import {NavigationContainer} from '@react-navigation/native'
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+const Tab = createBottomTabNavigator()
+
+export default class App extends Component{
+
+  render(){
+    return(
+      <NavigationContainer>
+        <Tab.Navigator>
+          <Tab.Screen name="Projetos" component={Projetos} />
+          <Tab.Screen name="Perfil" component={Perfil}/>
+          <Tab.Screen name="Cadastro" component={Cadastro}/>
+        </Tab.Navigator>
+      </NavigationContainer>
+    )
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
